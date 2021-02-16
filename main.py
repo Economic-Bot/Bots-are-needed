@@ -21,16 +21,11 @@ async def on_ready():
         type=discord.ActivityType.watching, name=f'{len(bot.guilds)} Servers'))
         
   
-@bot.event
-async def on_command_error(ctx, error):
-    channel = bot.get_channel(810542077448159292)
-    await channel.send(str(error)) 
 
 
 @bot.command(aliases=["reload"])
 async def re_load_ext(ctx, *name_of_ext):
     """To reload extension(s)"""
-
     if str(ctx.author.id) in ("740633806569996358", "759129467414380554"):
         try:
             for i in name_of_ext:
