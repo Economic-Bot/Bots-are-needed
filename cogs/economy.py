@@ -17,7 +17,7 @@ Pets = "./Jsons/pets.json"
 
 mainshop = [
     {"name": "Watch", "price": 30, "description": "Time"},
-    {"name": "Tv", "price": 340, "description": "Watch movies etc"},
+    {"name": "TV", "price": 340, "description": "Watch movies etc"},
     {"name": "Computer", "price": 90, "description": "To get memes"},
     {"name": "Laptop", "price": 60,
         "description": "To bet coins on memes which you think would be popular"}
@@ -86,36 +86,36 @@ class Ec(commands.Cog):
 
             begResponses = [
 
-                f"An ugly lady gave you **{int(earnings)}**x)",
-                f"**Tiktok Hoe: ** gave you **{earnings}**x)",
-                f"**Hungry Hipo: ** ......here is **{int(earnings)}**x) now get away",
-                f"**SirBrozHeart: ** ...WHY U MAD, here is... **{earnings}**x) im retarded! jk but....im mad",
-                f"**PizzaBoi: ** *dude im poor too, ima give you whatever i get from this guy.......*2 minutes later*...hey guy here is **{earnings}**x) enjoy",
-                f"**a group of idiots :** ................just....ass...like imagine being poor, just here dude....ugh lets get of here... the idiot dontated **{earnings}**x) btw",
-                f"**John Thicc: ** ..EXTRA THICCC, i mean you do be looking kinda THICC, so here {earnings}x)",
-                f"**Super Mario Thicc: ** **what's up homie.....SUPER MARIO HERE TAKE THE MONEY BYEEEEE {earnings}x)",
-                f"**bob: ** ....hey wanna hang out in my trash area....there is {earnings}x) there",
-                f"**Eshadow: ** they aer like 10 responses what a dead bot wowoowowow take this mother fucker... {earnings}x)",
-                f"**AINME DWEEB** hey wanna watch some anime? no? well fuck u and here is {earnings}x) and your a bitch",
-                f"A rich man has just been shot and {int(earnings)}x) has went on the floor!",
+                f"An ugly lady gave you **{int(earnings)}**$",
+                f"**Tiktok Hoe: ** gave you **{earnings}**$",
+                f"**Hungry Hipo: ** ......here is **{int(earnings)}**$ now get away",
+                f"**SirBrozHeart: ** ...WHY U MAD, here is... **{earnings}**$ im retarded! jk but....im mad",
+                f"**PizzaBoi: ** *dude im poor too, ima give you whatever i get from this guy.......*2 minutes later*...hey guy here is **{earnings}**$ enjoy",
+                f"**a group of idiots :** ................just....ass...like imagine being poor, just here dude....ugh lets get of here... the idiot dontated **{earnings}**$ btw",
+                f"**John Thicc: ** ..EXTRA THICCC, i mean you do be looking kinda THICC, so here {earnings}$",
+                f"**Super Mario Thicc: ** **what's up homie.....SUPER MARIO HERE TAKE THE MONEY BYEEEEE {earnings}$",
+                f"**bob: ** ....hey wanna hang out in my trash area....there is {earnings}$ there",
+                f"**Eshadow: ** there is like 10 responses what a dead bot wowoowowow take this mother fucker... {earnings}$",
+                f"**AINME DWEEB** hey wanna watch some anime? no? well fuck u and here is {earnings}$ and you're a bitch",
+                f"A rich man has just been shot and {int(earnings)}$ has went on the floor!",
 
-                f"Cool Boy Jacob: Sup dude, you begging like a loser, anyway here have{int(earnings)}x) so you dont bother me again.",
+                f"Cool Boy Jacob: Sup dude, you begging like a loser, anyway here have{int(earnings)}$ so you dont bother me again.",
 
-                f"Jeff Bezos: Your amazon order has been delivered, I'll give you {int(earnings)}x) to be generous",
-                f"I'm giving you **{int(earnings)}**, now stay here for me to post it on insta x)",
-                f"Look, I am humble kiddo get these **{int(earnings)}** x)",
-                f"What about these **{int(earnings)}** , are these enough x)"
+                f"Jeff Bezos: Your amazon order has been delivered, I'll give you {int(earnings)}$ to be generous",
+                f"I'm giving you **{int(earnings)}**, now stay here for me to post it on insta $",
+                f"Look, I am humble kiddo get these **{int(earnings)}** $",
+                f"What about these **{int(earnings)}** , are these enough $"
 
             ]
 
             nomoneyresponse = [
-                f"I think I'm gonna join you in the begging business; I am broke myself x)",
-                f"Ah yes, the negotiator x)", f"Get a job bimbo x)",
-                f"I guess I won't give lol x)",
-                f"Oh you again, still **NO** x)",
-                f"All I can give is a hug *hugs lovely* x)",
-                f"Let's goooo another one to annoy my life, get away x)",
-                f"What Can I say except get the fuck away x)"]
+                f"I think I'm gonna join you in the begging business; I am broke myself $",
+                f"Ah yes, the negotiator $", f"Get a job bimbo $",
+                f"I guess I won't give lol $",
+                f"Oh you again, still **NO** $",
+                f"All I can give is a hug *hugs lovely* $",
+                f"Let's goooo another one to annoy my life, get away $",
+                f"What can I say except get the fuck away $"]
 
             # *----------------------------------------------------------------------------------
             nomoneyrespon = random.choice(nomoneyresponse)
@@ -147,38 +147,38 @@ class Ec(commands.Cog):
 
             begResponses = [
 
-                f"An ugly lady gave you **{int(earnings)}**x)",
-                f"**Tiktok Hoe: ** gave you **{earnings}**x)",
-                f"**Hungry Hipo: ** ......here is **{int(earnings)}**x) now get away",
-                f"**SirBrozHeart: ** ...WHY U MAD, here is... **{earnings}**x) im retarded! jk but....im mad",
-                f"**PizzaBoi: ** *dude im poor too, ima give you whatever i get from this guy.......*2 minutes later*...hey guy here is **{earnings}**x) enjoy",
-                f"**a group of idiots :** ................just....ass...like imagine being poor, just here dude....ugh lets get of here... the idiot dontated **{earnings}**x) btw",
-                f"**John Thicc: ** ..EXTRA THICCC, i mean you do be looking kinda THICC, so here {earnings}x)",
-                f"**Super Mario Thicc: ** **what's up homie.....SUPER MARIO HERE TAKE THE MONEY BYEEEEE {earnings}x)",
-                f"**bob: ** ....hey wanna hang out in my trash area....there is {earnings}x) there",
-                f"**Eshadow: ** they aer like 10 responses what a dead bot wowoowowow take this mother fucker... {earnings}x)",
-                f"**AINME DWEEB** hey wanna watch some anime? no? well fuck u and here is {earnings}x) and your a bitch",
-                f"A rich man has just been shot and {int(earnings)}x) has went on the floor!",
+                f"An ugly lady gave you **{int(earnings)}**$",
+                f"**Tiktok Hoe: ** gave you **{earnings}**$",
+                f"**Hungry Hipo: ** ......here is **{int(earnings)}**$ now get away",
+                f"**SirBrozHeart: ** ...WHY U MAD, here is... **{earnings}**$ im retarded! jk but....im mad",
+                f"**PizzaBoi: ** *dude im poor too, ima give you whatever i get from this guy.......*2 minutes later*...hey guy here is **{earnings}**$ enjoy",
+                f"**a group of idiots :** ................just....ass...like imagine being poor, just here dude....ugh lets get of here... the idiot dontated **{earnings}**$ btw",
+                f"**John Thicc: ** ..EXTRA THICCC, i mean you do be looking kinda THICC, so here {earnings}$",
+                f"**Super Mario Thicc: ** **what's up homie.....SUPER MARIO HERE TAKE THE MONEY BYEEEEE {earnings}$",
+                f"**bob: ** ....hey wanna hang out in my trash area....there is {earnings}$ there",
+                f"**Eshadow: ** they aer like 10 responses what a dead bot wowoowowow take this mother fucker... {earnings}$",
+                f"**AINME DWEEB** hey wanna watch some anime? no? Well fuck you and here is {earnings}$ and you're a bitch",
+                f"A rich man has just been shot and {int(earnings)}$ has went on the floor!",
 
-                f"Cool Boy Jacob: Sup dude, you begging like a loser, anyway here have{int(earnings)}x) so you dont bother me again.",
+                f"Cool Boy Jacob: Sup dude, you begging like a loser, anyway here have{int(earnings)}$ so you dont bother me again.",
 
-                f"Jeff Bezos: Your amazon order has been delivered, I'll give you {int(earnings)}x) to be generous",
-                f"I'm giving you **{int(earnings)}**, now stay here for me to post it on insta x)",
-                f"Look, I am humble kiddo get these **{int(earnings)}** x)",
-                f"What about these **{int(earnings)}** , are these enough x)"
+                f"Jeff Bezos: Your amazon order has been delivered, I'll give you {int(earnings)}$ to be generous",
+                f"I'm giving you **{int(earnings)}**, now stay here for me to post it on insta $",
+                f"Look, I am humble kiddo get these **{int(earnings)}** $",
+                f"What about these **{int(earnings)}** , are these enough $"
 
             ]
 
             nomoneyresponse = [
 
-                f"I think I'm gonna join you in the begging buisness; I am broke myself x)",
-                f"Ah yes, the negotiator x)",
-                f"Get a job bimbo x)"
-                f"I guess I won't give lol x)",
-                f"Oh you again, still **NO** x)",
-                f"All I can give is a hug *hugs lovely* x)",
-                f"Let's goooo another one to annoy my life, get away x)",
-                f"What Can I say except get the fuck away x)",
+                f"I think I'm gonna join you in the begging buisness; I am broke myself $",
+                f"Ah yes, the negotiator $",
+                f"Get a job bimbo $"
+                f"I guess I won't give lol $",
+                f"Oh you again, still **NO** $",
+                f"All I can give is a hug *hugs lovely* $",
+                f"Let's goooo another one to annoy my life, get away $",
+                f"What Can I say except get the fuck away $",
 
             ]
 
@@ -228,7 +228,7 @@ class Ec(commands.Cog):
                     await self.update_bank(ctx.author, -1 * earnings)
                     await self.update_bank(member, earnings)
                     embed = discord.Embed(title="Rob",
-                                          description=f"You got caught and paid {earnings}x) to {member.mention}")
+                                          description=f"You got caught and paid {earnings}$ to {member.mention}")
                     embed.set_footer(
                         text=f"Requested by {ctx.author}", icon_url=ctx.author.avatar_url)
                     await ctx.send(embed=embed)
@@ -236,7 +236,7 @@ class Ec(commands.Cog):
                 elif earnings > 7000:
                     earnings = random.randint(0, 7000)
                     print(earnings)
-                    embed = discord.Embed(title="Rob", description=f"You Robbed {member.mention} and got {earnings}x)",
+                    embed = discord.Embed(title="Rob", description=f"You Robbed {member.mention} and got {earnings}$",
                                           color=discord.Color.random())
                     embed.set_footer(
                         text=f"Requested by {ctx.author}", icon_url=ctx.author.avatar_url)
@@ -245,7 +245,7 @@ class Ec(commands.Cog):
                     await self.update_bank(member, -1 * earnings)
 
                 else:
-                    embed = discord.Embed(title="Rob", description=f"You Robbed {member.mention} and got {earnings}x)",
+                    embed = discord.Embed(title="Rob", description=f"You Robbed {member.mention} and got {earnings}$",
                                           color=discord.Color.random())
                     embed.set_footer(
                         text=f"Requested by {ctx.author}", icon_url=ctx.author.avatar_url)
@@ -254,38 +254,6 @@ class Ec(commands.Cog):
                     await self.update_bank(member, -1 * earnings)
                     print(earnings)
 
-    @commands.command()
-    async def gamble(self, ctx, amount):
-        await self.open_account(ctx.author)
-
-        user = ctx.author
-
-        bal = await self.update_bank(ctx.author)
-
-        amount = int(amount)
-        bal[1] = int(bal[1])
-
-        if bal[0] < 99:
-            await ctx.send("Sorry man, you gotta at least have 100x)")
-            return
-
-        if amount < 99:
-            await ctx.send("You have to bet 100x) or higher")
-
-        if amount > 99 and bal[0] > 99:
-            if amount > bal[0]:
-                await ctx.send(f"Bro you don't even have that much money my dud, you have {bal[0]}")
-            else:
-
-                Chance = random.randint(1, 2)
-
-                if Chance == 1:
-                    await ctx.send(f"Sorry you lost {amount}x)")
-                    await self.update_bank(ctx.author, -1 * amount)
-
-                if Chance == 2:
-                    await ctx.send(f"You won {amount}x)")
-                    await self.update_bank(ctx.author, amount)
 
     @commands.command()
     async def bet(self, ctx, amount):
@@ -300,26 +268,26 @@ class Ec(commands.Cog):
         bal[1] = int(bal[1])
 
         if bal[0] < 99:
-            await ctx.send("Sorry man, you gotta at least have 100x)")
+            await ctx.send("Sorry man, you gotta at least have 100$")
             return
 
         if amount < 99:
-            await ctx.send("You have to bet 100x) or higher")
+            await ctx.send("You have to bet 100$ or higher")
 
         if amount > 99 and bal[0] > 99:
             if amount > bal[0]:
                 await ctx.send(
-                    f"Bro you don't even have that much money my dud, you have only {bal[0]}x) and your trying to bet {amount}x) tf?")
+                    f"Bro you don't even have that much money my dud, you have only {bal[0]}$ and you're trying to bet {amount}$ tf?")
             else:
 
                 Chance = random.randint(1, 2)
 
                 if Chance == 1:
-                    await ctx.send(f"Sorry you lost {amount}x)")
+                    await ctx.send(f"Sorry you lost {amount}$")
                     await self.update_bank(ctx.author, -1 * amount)
 
                 if Chance == 2:
-                    await ctx.send(f"You won {amount}x)")
+                    await ctx.send(f"You won {amount}$")
                     await self.update_bank(ctx.author, amount)
 
     @commands.command()
@@ -334,11 +302,11 @@ class Ec(commands.Cog):
 
         amount = int(amount)
         if amount > bal[1]:
-            await ctx.send("Your Poor")
+            await ctx.send("You're Poor")
             return
 
         if amount < 0:
-            await ctx.send("Your Poor")
+            await ctx.send("You're Poor")
             return
 
         await self.update_bank(ctx.author, -1 * amount, "bank")
@@ -379,13 +347,13 @@ class Ec(commands.Cog):
                     MEMEearnings = MEMEearningsR + mem
 
                     if MEMEearnings > 500:
-                        await ctx.send(f"Ay my boi..u is got alot of moneyyyy, **{MEMEearnings}x)** to be exact my dud")
+                        await ctx.send(f"Ay my boi..u is got alot of moneyyyy, **{MEMEearnings}$** to be exact my dud")
                         await self.update_bank(ctx.author, MEMEearnings)
 
                     elif MEMEearnings < 400:
                         MEMEearningsR = random.randint(400, 1200)
                         await ctx.send(
-                            f"SO YOUR MEME SUCKED SO MUCH ASS THAT THE MEME POLICE GAVE YOU A FINE OF -**{MEMEearnings}x)** BECAUSE UR MEME WAS ASS")
+                            f"SO YOUR MEME SUCKED SO MUCH ASS THAT THE MEME POLICE GAVE YOU A FINE OF -**{MEMEearnings}$** BECAUSE UR MEME WAS ASS")
                         await self.update_bank(ctx.author, -1 * MEMEearnings)
 
         except Exception:
@@ -402,13 +370,13 @@ class Ec(commands.Cog):
                     MEMEearnings = random.randint(0, 1200)
 
                     if MEMEearnings > 500:
-                        await ctx.send(f"Ay my boi..u is got alot of moneyyyy, **{MEMEearnings}x)** to be exact my dud")
+                        await ctx.send(f"Ay my boi..u is got alot of moneyyyy, **{MEMEearnings}$** to be exact my dud")
                         await self.update_bank(ctx.author, MEMEearnings)
 
                     elif MEMEearnings < 400:
                         MEMEearningsR = random.randint(400, 1200)
                         await ctx.send(
-                            f"SO YOUR MEME SUCKED SO MUCH ASS THAT THE MEME POLICE GAVE YOU A FINE OF -**{MEMEearnings}x)** BECAUSE UR MEME WAS ASS")
+                            f"SO YOUR MEME SUCKED SO MUCH ASS THAT THE MEME POLICE GAVE YOU A FINE OF -**{MEMEearnings}$** BECAUSE UR MEME WAS ASS")
                         await self.update_bank(ctx.author, -1 * MEMEearnings)
 
     @commands.command()

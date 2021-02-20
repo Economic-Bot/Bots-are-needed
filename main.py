@@ -6,13 +6,13 @@ import json
 
 
 def get_prefix(client, message):
-    with open("perfix_data.json", "r") as f:
+    with open("prefix_data.json", "r") as f:
         prefixes = json.load(f)
     return prefixes.get(str(message.guild.id), "?")
 
 bot = commands.Bot(command_prefix=get_prefix)
 
-# go the chats, in repl
+# go the chats, in repl.it
 bot.remove_command('help')
 
 @bot.event
@@ -46,26 +46,26 @@ async def re_load_ext(ctx, *name_of_ext):
 # when bot is added to other server
 @bot.event
 async def on_guild_join(guild):
-    with open("perfix_data.json", "r") as f:
+    with open("prefix_data.json", "r") as f:
         prefixes = json.load(f)
 
     prefixes[str(guild.id)] = "?"
 
     # storing the data
-    with open("perfix_data.json", "w") as f:
+    with open("prefix_data.json", "w") as f:
         json.dump(prefixes, f, indent=4)
 
 
 # when bot removed from server
 @bot.event
 async def on_guild_remove(guild):
-    with open("perfix_data.json", "r") as f:
+    with open("prefix_data.json", "r") as f:
         prefixes = json.load(f)
 
     prefixes.pop(str(guild.id))
 
     # storing the data
-    with open("perfix_data.json", "w") as f:
+    with open("prefix_data.json", "w") as f:
         json.dump(prefixes, f, indent=4)
 
 
@@ -74,12 +74,12 @@ async def on_guild_remove(guild):
 async def change_prefix(ctx, prefix):
     """To allow the prefix to be changed"""
 
-    with open("perfix_data.json", "r") as f:
+    with open("prefix_data.json", "r") as f:
         prefixes = json.load(f)
 
     prefixes[str(ctx.guild.id)] = prefix
     # storing the data
-    with open("perfix_data.json", "w") as f:
+    with open("prefix_data.json", "w") as f:
         json.dump(prefixes, f, indent=4)
 
     await ctx.send(f"Prefix has been changed to **{prefix}**")

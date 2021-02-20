@@ -2,16 +2,14 @@ import discord
 from discord.ext import commands
 from disputils import BotEmbedPaginator
 
-ec = """"
+ec = """
 **
 ?bag         
 ?bal         
 ?beg         
 ?bet         
 ?buy         
-?dep         
-?gamble      
-?post        
+?dep            
 ?rob         
 ?sell        
 ?send        
@@ -20,18 +18,15 @@ ec = """"
 **
 """
 
-fun = """
+misc = """
 **
 ?eval 
 ?ping     
 ?server_info
 ?uptime   
 ?whois
-?meme 
 ?poke
 ?invite or ?in
-?ai 
-?id 
 ?tts
 **
 """
@@ -75,16 +70,16 @@ class help__(commands.Cog):
                 title="Here are all the commands",
                 description="Click the arrows to navigate through the commands",
                 color=discord.Color.gold()),
-            discord.Embed(title="Fun commands:",
-                          description=fun,
+            discord.Embed(title="Misc Commands:",
+                          description=misc,
                           color=discord.Color.gold()),
-            discord.Embed(title="Music commands:",
+            discord.Embed(title="Music Commands:",
                           description=music__,
                           color=discord.Color.gold()),
-            discord.Embed(title="Economic commands:",
+            discord.Embed(title="Economy commands:",
                           description=ec,
                           color=discord.Color.gold()),
-            discord.Embed(title="Moderator commands:",
+            discord.Embed(title="Moderation commands:",
                           description=mod,
                           color=discord.Color.gold())
         ]
