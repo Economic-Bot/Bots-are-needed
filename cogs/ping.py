@@ -10,7 +10,7 @@ class Ping(commands.Cog):
     @commands.command()
     async def ping(self, ctx): # This was inside '__init__' before
         await ctx.send(f'pong!\n{round(self.client.latency* 1000)}ms')
-
+         
  
 
 def setup(client):

@@ -31,7 +31,7 @@ class Guess_game(commands.Cog):
                 self.already_said_in_game, self.is_playing_guess = True, False
                 self.is_playing_guess_author = ''
                 await message.add_reaction("🥳")
-                return await message.channel.send(f"**You won !! <@{author.id}>** \<3")
+                return await message.channel.send(f"**You won !! <@{author.id}>** x) play again soon")
 
             # the user didn't guess it yet
             if author.id == self.is_playing_guess_author and int(content) != number_bot:
