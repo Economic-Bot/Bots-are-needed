@@ -1,4 +1,4 @@
-import keep_alive  # to keep the bot alive
+ import keep_alive  # to keep the bot alive
 import discord
 from discord.ext import commands
 import os
@@ -62,7 +62,8 @@ async def on_guild_remove(guild):
     with open("prefix_data.json", "r") as f:
         prefixes = json.load(f)
 
-    prefixes.pop(str(guild.id))
+    # it would still work "normally"
+    prefixes.pop(guild.id)#sus
 
     # storing the data
     with open("prefix_data.json", "w") as f:
