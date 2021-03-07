@@ -1,11 +1,11 @@
- import keep_alive  # to keep the bot alive
+import keep_alive   
 import discord
 from discord.ext import commands
 import os
 import json
 
 
-def get_prefix(client, message):
+def get_prefix(bot, message):
     with open("prefix_data.json", "r") as f:
         prefixes = json.load(f)
     return prefixes.get(str(message.guild.id), "?")
@@ -35,12 +35,7 @@ async def re_load_ext(ctx, *name_of_ext):
             await ctx.send(err)
 
         else:
-            await ctx.send(f"{name_of_ext} was successfully reloaded")
-
-    else:
-        await ctx.send(
-            f"You don't have perms <@{ctx.author.id}>, _ stupid just why are you a dick or somthing just why?_"
-        )
+          pass
 
 
 # when bot is added to other server
@@ -51,7 +46,7 @@ async def on_guild_join(guild):
 
     prefixes[str(guild.id)] = "?"
 
-    # storing the data
+     #storing the data
     with open("prefix_data.json", "w") as f:
         json.dump(prefixes, f, indent=4)
 
@@ -61,11 +56,8 @@ async def on_guild_join(guild):
 async def on_guild_remove(guild):
     with open("prefix_data.json", "r") as f:
         prefixes = json.load(f)
+        prefixes.pop(str(guild.id))
 
-    # it would still work "normally"
-    prefixes.pop(guild.id)#sus
-
-    # storing the data
     with open("prefix_data.json", "w") as f:
         json.dump(prefixes, f, indent=4)
 
@@ -97,4 +89,4 @@ for i in cogs:
             print(f)
             
 bot.load_extension("jishaku")
-bot.run(os.environ.get("bot_token"))
+bot.run("NzgyMjcwNzE3MTY4NTgyNjc4.X8JwYA.84SDPBYY-X3PIWNiAc5b6bz5Mzs")
